@@ -1,0 +1,6 @@
+name=str(input('Ho ten: '))
+cong=int(input('So ngay cong: '))
+gia=int(input('Don gia ngay cong: '))
+phucap=float(input('He so phu cap: '))
+ung=int(input('Tam ung: '))
+print('Nhan vien '+str(name)+', Co tien Luong= '+str(int(gia*cong*phucap))+', Tam ung=',ung,'va Thuc linh =',int(gia*cong*phucap-ung))
